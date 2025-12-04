@@ -1,0 +1,5 @@
+base:
+- lola_yolo_float.yaml
+
+network:
+  network_name: lola_model

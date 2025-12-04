@@ -1,0 +1,5 @@
+source hailo_ai_sw_suite/hailo_venv/bin/activate
+
+
+hailomz compile  --ckpt test.onnx --hw-arch hailo8l --yaml hailo_model_zoo/hailo_model_zoo/cfg/networks/lola_yolo.yaml --calib-path Hailo_test --model-script lola_yolo.alls
+
